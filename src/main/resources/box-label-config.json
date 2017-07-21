@@ -1,0 +1,244 @@
+{
+  "packingSlipTemplateData": {
+    "size": {
+      "length": 100.00,
+      "breadth": 100.00,
+      "border": 15,
+      "borderWidth": 1.00,
+      "marginLeft": 0.00,
+      "marginRight": 0.00,
+      "marginBottom": 0.00,
+      "marginTop": 0.00
+    },
+    "fileName": "1",
+    "layout": [{
+      "columns": [{
+        "type": "barcode",
+        "key": "reservationClientBarcode",
+        "paddingLeft": "3.33",
+        "paddingRight": "0.00",
+        "paddingTop": "3.33",
+        "paddingBottom": "0.00",
+        "height": "20.00",
+        "borderWidth": "0"
+
+      },
+        {
+          "type": "text",
+          "key": "consolidationLocationNumber",
+          "paddingLeft": "1.00",
+          "paddingRight": "1.00",
+          "paddingTop": "1.00",
+          "paddingBottom": "1.00",
+          "height": "20.00",
+          "borderWidth": "0"
+        }
+      ],
+      "tableWidth": "100",
+      "ratio": [3, 2]
+    },
+      {
+        "columns": [{
+          "type": "text",
+          "key": "externalServiceRequestId",
+          "paddingLeft": "3.33",
+          "paddingRight": "1.00",
+          "paddingTop": "1.00",
+          "paddingBottom": "1.00",
+          "height": "10.00",
+          "borderWidth": "0"
+        }, {
+          "type": "text",
+          "key": "orderNumber",
+          "paddingLeft": "1.00",
+          "paddingRight": "1.00",
+          "paddingTop": "1.00",
+          "paddingBottom": "1.00",
+          "height": "10.00",
+          "borderWidth": "0"
+        }],
+        "tableWidth": "100",
+        "ratio": [1, 1]
+      },
+      {
+        "columns": [{
+          "type": "text",
+          "key": "reservationClient",
+          "paddingLeft": "3.33",
+          "paddingRight": "1.00",
+          "paddingTop": "1.00",
+          "paddingBottom": "1.00",
+          "height": "10.00",
+          "borderWidth": "0"
+        }, {
+          "type": "text",
+          "key": "waveNumber",
+          "paddingLeft": "1.00",
+          "paddingRight": "1.00",
+          "paddingTop": "1.00",
+          "paddingBottom": "1.00",
+          "height": "10.00",
+          "borderWidth": "0"
+        }],
+        "tableWidth": "100",
+        "ratio": [1, 1]
+      },
+      {
+        "columns": [{
+          "type": "text",
+          "key": "clientName",
+          "paddingLeft": "3.33",
+          "paddingRight": "1.00",
+          "paddingTop": "1.00",
+          "paddingBottom": "1.00",
+          "height": "10.00",
+          "borderWidth": "0"
+        }],
+        "tableWidth": "100",
+        "ratio": [1]
+      },
+      {
+        "columns": [{
+          "type": "text",
+          "key": "clientAddress",
+          "paddingLeft": "3.33",
+          "paddingRight": "1.00",
+          "paddingTop": "1.00",
+          "paddingBottom": "1.00",
+          "height": "10.00",
+          "borderWidth": "0"
+        }],
+        "tableWidth": "100",
+        "ratio": [1]
+      },
+      {
+        "columns": [{
+          "type": "text",
+          "key": "packingStationId",
+          "paddingLeft": "1.00",
+          "paddingRight": "1.00",
+          "paddingTop": "1.00",
+          "paddingBottom": "1.00",
+          "height": "8.00",
+          "borderWidth": "15"
+        },
+          {
+            "type": "text",
+            "key": "consolidationFlag",
+            "paddingLeft": "1.00",
+            "paddingRight": "1.00",
+            "paddingTop": "1.00",
+            "paddingBottom": "1.00",
+            "height": "8.00",
+            "borderWidth": "15"
+          }
+        ],
+        "tableWidth": "100",
+        "ratio": [8, 10]
+      },
+      {
+        "columns": [{
+          "type": "barcode",
+          "key": "olpnBarcode",
+          "paddingLeft": "10.00",
+          "paddingRight": "1.00",
+          "paddingTop": "1.00",
+          "paddingBottom": "1.00",
+          "height": "20.00",
+          "borderWidth": "0"
+        },
+          {
+            "type": "blank",
+            "paddingLeft": "1.00",
+            "paddingRight": "1.00",
+            "paddingTop": "1.00",
+            "paddingBottom": "1.00",
+            "height": "20.00",
+            "borderWidth": "0"
+          }
+        ],
+        "tableWidth": "100",
+        "ratio": [9, 1]
+      },
+      {
+        "columns": [{
+          "type": "date",
+          "paddingLeft": "3.33",
+          "paddingRight": "1.00",
+          "paddingTop": "1.00",
+          "paddingBottom": "1.00",
+          "height": "10.00",
+          "borderWidth": "0"
+        },
+          {
+            "type": "text",
+            "key": "numberFacility",
+            "paddingLeft": "3.33",
+            "paddingRight": "1.00",
+            "paddingTop": "1.00",
+            "paddingBottom": "1.00",
+            "height": "10.00",
+            "borderWidth": "0"
+          }
+        ],
+        "tableWidth": "100",
+        "ratio": [1, 1]
+      }
+    ]
+  },
+  "packingSlipData": {
+    "externalServiceRequestId": {
+      "header": "PKT",
+      "seperator": ":",
+      "value": "12345"
+    },
+    "reservationClient": {
+      "header": "Reserva",
+      "seperator": ":",
+      "value": "12345"
+    },
+    "fileName": "1",
+    "orderNumber": {
+      "header": "PEC",
+      "seperator": ":",
+      "value": "order_number_1"
+    },
+    "consolidationLocationNumber": {
+      "header": "JAULA",
+      "seperator": ":",
+      "value": "071"
+    },
+    "clientName": {
+      "header": "Nombre",
+      "seperator": ":",
+      "value": "client_name1"
+    },
+    "numberFacility": {
+      "header": "WHSE",
+      "seperator": ":",
+      "value": "facility1"
+    },
+    "olpnBarcode": "000000000",
+    "packingStationId": {
+      "header": "UBICACION",
+      "seperator": ":",
+      "value": "1"
+    },
+    "waveNumber": {
+      "header": "Ola",
+      "seperator": ":",
+      "value": "wave_umber"
+    },
+    "clientAddress": {
+      "header": "Direccion",
+      "seperator": ":",
+      "value": "address1"
+    },
+    "consolidationFlag": {
+      "header": "Consolidation",
+      "seperator": ":",
+      "value": "Incomplete"
+    },
+    "reservationClientBarcode": "reservation_client1"
+  }
+}

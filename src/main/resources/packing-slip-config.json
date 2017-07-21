@@ -1,0 +1,217 @@
+{
+  "packingSlipTemplateData": {
+    "size": {
+      "length": 210.00,
+      "breadth": 297.00,
+      "border": 15,
+      "borderWidth": 1.00,
+      "marginLeft": 10.00,
+      "marginRight": 10.00,
+      "marginBottom": 10.00,
+      "marginTop": 10.00
+    },
+    "fileName": "2",
+    "layout": [{
+      "columns": [{
+        "type": "image",
+        "key": "logo",
+        "paddingLeft": "0.00",
+        "paddingRight": "0.00",
+        "paddingTop": "0.00",
+        "paddingBottom": "0.00",
+        "height": "20.00",
+        "borderWidth": "0"
+
+      },
+        {
+          "type": "text",
+          "key": "packingSlipText",
+          "paddingLeft": "0.00",
+          "paddingRight": "0.00",
+          "paddingTop": "9.00",
+          "paddingBottom": "0.00",
+          "height": "20.00",
+          "borderWidth": "0"
+        }
+      ],
+      "tableWidth": "190",
+      "ratio": [3, 1]
+    },
+      {
+        "columns": [{
+          "type": "blank",
+          "paddingLeft": "0.00",
+          "paddingRight": "0.00",
+          "paddingTop": "0.00",
+          "paddingBottom": "0.00",
+          "height": "20.00",
+          "borderWidth": "0"
+
+        },
+          {
+            "type": "date",
+            "paddingLeft": "0.00",
+            "paddingRight": "0.00",
+            "paddingTop": "0.00",
+            "paddingBottom": "1.00",
+            "height": "20.00",
+            "borderWidth": "0"
+          }
+        ],
+        "tableWidth": "190",
+        "ratio": [3, 1]
+      },
+      {
+        "columns": [{
+          "type": "text",
+          "key": "order",
+          "paddingLeft": "0.00",
+          "paddingRight": "0.00",
+          "paddingTop": "9.00",
+          "paddingBottom": "0.00",
+          "height": "40.00",
+          "borderWidth": "0"
+        },
+          {
+            "type": "barcode",
+            "key": "orderBarcode",
+            "paddingLeft": "3.33",
+            "paddingRight": "0.00",
+            "paddingTop": "3.33",
+            "paddingBottom": "0.00",
+            "height": "20.00",
+            "borderWidth": "0"
+
+          }
+        ],
+        "tableWidth": "190",
+        "ratio": [1, 8]
+      },
+      {
+        "columns": [{
+          "type": "text",
+          "key": "olpn",
+          "paddingLeft": "0.00",
+          "paddingRight": "0.00",
+          "paddingTop": "9.00",
+          "paddingBottom": "0.00",
+          "height": "20.00",
+          "borderWidth": "0"
+        },
+          {
+            "type": "barcode",
+            "key": "olpnBarcode",
+            "paddingLeft": "3.33",
+            "paddingRight": "0.00",
+            "paddingTop": "3.33",
+            "paddingBottom": "0.00",
+            "height": "40.00",
+            "borderWidth": "0"
+
+          }
+        ],
+        "tableWidth": "190",
+        "ratio": [1, 8]
+      },
+      {
+        "columns": [{
+          "type": "text",
+          "key": "content",
+          "paddingLeft": "0.00",
+          "paddingRight": "0.00",
+          "paddingTop": "9.00",
+          "paddingBottom": "0.00",
+          "height": "20.00",
+          "borderWidth": "0"
+        }
+        ],
+        "tableWidth": "190",
+        "ratio": [1]
+      },
+      {
+
+        "columns": [{
+          "type": "table",
+          "headerListKey" : "itemTableDescriptionColumnHeaders",
+          "valueListKey" : "itemTableDescriptionColumnValues",
+          "paddingLeft": "3.33",
+          "paddingRight": "1.00",
+          "paddingTop": "1.00",
+          "paddingBottom": "1.00",
+          "height": "10.00",
+          "borderWidth": "15",
+          "subTableWidth": "190",
+          "subTableRatio": [1,1,1,1],
+          "sum" : [0,3]
+        }],
+        "tableWidth": "190",
+        "ratio": [1]
+      },
+      {
+
+        "columns": [{
+          "type": "blank",
+          "paddingLeft": "0.00",
+          "paddingRight": "0.00",
+          "paddingTop": "0.00",
+          "paddingBottom": "0.00",
+          "height": "20.00",
+          "borderWidth": "0"
+        }],
+        "tableWidth": "190",
+        "ratio": [1]
+      },
+      {
+
+        "columns": [{
+          "type": "text",
+          "key": "comments",
+          "paddingLeft": "0.00",
+          "paddingRight": "0.00",
+          "paddingTop": "0.00",
+          "paddingBottom": "0.00",
+          "height": "40.00",
+          "borderWidth": "15"
+        }],
+        "tableWidth": "190",
+        "ratio": [1]
+      }
+    ]
+  },
+  "packingSlipData": {
+    "packingSlipText": {
+      "header": "PACKING SLIP",
+      "seperator": "",
+      "value": ""
+    },
+    "order": {
+      "header": "Order",
+      "seperator": "",
+      "value": ""
+    },
+    "orderBarcode" : "1234",
+    "olpn": {
+      "header": "Olpn",
+      "seperator": "",
+      "value": ""
+    },
+    "olpnBarcode" : "1234-332",
+    "content": {
+      "header": "Content",
+      "seperator": "",
+      "value": ""
+    },
+    "itemTableDescriptionColumnHeaders": ["Sr. No.","ITEM", "DESCRIPTION","QUANTITY"],
+    "itemTableDescriptionColumnValues": ["serialNo","item", "description","quantity"],
+    "serialNo" : [1,2,3,4,5],
+    "item": ["Item1", "Item2", "Item3", "Item4", "Item5"],
+    "description": ["Item11", "Item12", "Item13", "Item14", "Item15"],
+    "quantity": [11, 22, 33, 44, 55],
+    "comments"  : {
+      "header": "Comments",
+      "seperator": " : ",
+      "value": ""
+    },
+    "logo" : "/home/prashant.v/Prashant/Sodimac/PDF/sodimac_logo.png"
+  }
+}
