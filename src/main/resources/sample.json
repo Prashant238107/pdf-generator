@@ -1,0 +1,426 @@
+{
+  "packingSlipTemplateData": {
+    "size": {
+      "length": 100.00,
+      "breadth": 100.00,
+      "border": 15,
+      "borderWidth": 1.00,
+      "marginLeft": 0.00,
+      "marginRight": 0.00,
+      "marginBottom": 0.00,
+      "marginTop": 0.00
+    },
+    "fileName": "1",
+    "layout": [{
+      "columns": [
+
+        {
+          "type": "image",
+          "key": "logo",
+          "paddingLeft": "0.00",
+          "paddingRight": "0.00",
+          "paddingTop": "0.00",
+          "paddingBottom": "0.00",
+          "height": "20.00",
+          "borderWidth": "0"
+
+        },
+        {
+          "type": "text",
+          "key": "consolidationLocationNumber",
+          "paddingLeft": "1.00",
+          "paddingRight": "1.00",
+          "paddingTop": "1.00",
+          "paddingBottom": "1.00",
+          "height": "20.00",
+          "borderWidth": "0",
+          "fontName": "Times-Roman",
+          "fontSize": "20",
+          "fontRed": "0",
+          "fontGreen": "0",
+          "fontBlue": "0"
+        }
+      ],
+      "tableWidth": "100",
+      "ratio": [3, 2]
+    },
+      {
+        "columns": [{
+          "type": "text",
+          "key": "externalServiceRequestId",
+          "paddingLeft": "3.33",
+          "paddingRight": "1.00",
+          "paddingTop": "1.00",
+          "paddingBottom": "1.00",
+          "height": "10.00",
+          "borderWidth": "0",
+          "fontName": "Times-Roman",
+          "fontSize": "20",
+          "fontRed": "0",
+          "fontGreen": "0",
+          "fontBlue": "0"
+        }, {
+          "type": "text",
+          "key": "orderNumber",
+          "paddingLeft": "1.00",
+          "paddingRight": "1.00",
+          "paddingTop": "1.00",
+          "paddingBottom": "1.00",
+          "height": "10.00",
+          "borderWidth": "0",
+          "fontName": "Times-Roman",
+          "fontSize": "20",
+          "fontRed": "0",
+          "fontGreen": "0",
+          "fontBlue": "0"
+        }],
+        "tableWidth": "100",
+        "ratio": [1, 1]
+      },
+      {
+        "columns": [{
+          "type": "text",
+          "key": "reservationClient",
+          "paddingLeft": "3.33",
+          "paddingRight": "1.00",
+          "paddingTop": "1.00",
+          "paddingBottom": "1.00",
+          "height": "10.00",
+          "borderWidth": "0",
+          "fontName": "Times-Roman",
+          "fontSize": "20",
+          "fontRed": "0",
+          "fontGreen": "0",
+          "fontBlue": "0"
+        }, {
+          "type": "text",
+          "key": "waveNumber",
+          "paddingLeft": "1.00",
+          "paddingRight": "1.00",
+          "paddingTop": "1.00",
+          "paddingBottom": "1.00",
+          "height": "10.00",
+          "borderWidth": "0",
+          "fontName": "Times-Roman",
+          "fontSize": "20",
+          "fontRed": "0",
+          "fontGreen": "0",
+          "fontBlue": "0"
+        }],
+        "tableWidth": "100",
+        "ratio": [1, 1]
+      },
+      {
+        "columns": [{
+          "type": "text",
+          "key": "clientName",
+          "paddingLeft": "3.33",
+          "paddingRight": "1.00",
+          "paddingTop": "1.00",
+          "paddingBottom": "1.00",
+          "height": "10.00",
+          "borderWidth": "0",
+          "fontName": "Times-Roman",
+          "fontSize": "20",
+          "fontRed": "0",
+          "fontGreen": "0",
+          "fontBlue": "0"
+        }],
+        "tableWidth": "100",
+        "ratio": [1]
+      },
+      {
+        "columns": [{
+          "type": "text",
+          "key": "clientAddress",
+          "paddingLeft": "3.33",
+          "paddingRight": "1.00",
+          "paddingTop": "1.00",
+          "paddingBottom": "1.00",
+          "height": "10.00",
+          "borderWidth": "0",
+          "fontName": "Times-Roman",
+          "fontSize": "20",
+          "fontRed": "0",
+          "fontGreen": "0",
+          "fontBlue": "0"
+        }],
+        "tableWidth": "100",
+        "ratio": [1]
+      },
+      {
+        "columns": [{
+          "type": "text",
+          "key": "packingStationId",
+          "paddingLeft": "1.00",
+          "paddingRight": "1.00",
+          "paddingTop": "1.00",
+          "paddingBottom": "1.00",
+          "height": "8.00",
+          "borderWidth": "15",
+          "fontName": "Times-Roman",
+          "fontSize": "20",
+          "fontRed": "0",
+          "fontGreen": "0",
+          "fontBlue": "0"
+        },
+          {
+            "type": "text",
+            "key": "consolidationFlag",
+            "paddingLeft": "1.00",
+            "paddingRight": "1.00",
+            "paddingTop": "1.00",
+            "paddingBottom": "1.00",
+            "height": "8.00",
+            "borderWidth": "15",
+            "fontName": "Times-Roman",
+            "fontSize": "20",
+            "fontRed": "0",
+            "fontGreen": "0",
+            "fontBlue": "0"
+          }
+        ],
+        "tableWidth": "100",
+        "ratio": [8, 10]
+      },
+      {
+        "columns": [{
+          "type": "barcode",
+          "key": "olpnBarcode",
+          "paddingLeft": "10.00",
+          "paddingRight": "1.00",
+          "paddingTop": "1.00",
+          "paddingBottom": "1.00",
+          "height": "20.00",
+          "borderWidth": "0"
+        },
+          {
+            "type": "blank",
+            "paddingLeft": "1.00",
+            "paddingRight": "1.00",
+            "paddingTop": "1.00",
+            "paddingBottom": "1.00",
+            "height": "20.00",
+            "borderWidth": "0",
+            "fontName": "Times-Roman",
+            "fontSize": "20",
+            "fontRed": "0",
+            "fontGreen": "0",
+            "fontBlue": "0"
+          }
+        ],
+        "tableWidth": "100",
+        "ratio": [9, 1]
+      },
+      {
+        "columns": [{
+          "type": "date",
+          "paddingLeft": "3.33",
+          "paddingRight": "1.00",
+          "paddingTop": "1.00",
+          "paddingBottom": "1.00",
+          "height": "10.00",
+          "dateFormat": "dd-MM-yyyy HH:mm:ss",
+          "borderWidth": "0",
+          "fontName": "Courier-BoldOblique",
+          "fontSize": "40",
+          "fontColourRed": "0",
+          "fontColourGreen": "0",
+          "fontColourBlue": "0"
+        },
+          {
+            "type": "text",
+            "key": "numberFacility",
+            "paddingLeft": "3.33",
+            "paddingRight": "1.00",
+            "paddingTop": "1.00",
+            "paddingBottom": "1.00",
+            "height": "10.00",
+            "borderWidth": "0",
+            "fontName": "Times-Roman",
+            "fontSize": "20",
+            "fontRed": "0",
+            "fontGreen": "0",
+            "fontBlue": "0"
+          }
+        ],
+        "tableWidth": "100",
+        "ratio": [1, 1]
+      },
+      {
+        "columns": [{
+          "type": "table",
+          "headerListKey": "itemTableColumnHeaders",
+          "valueListKey": "itemTableColumnValues",
+          "footerListKey": "itemTableColumnFooter",
+          "headerProperties": {
+            "headerPaddingLeft": "3.33",
+            "headerPaddingRight": "1.00",
+            "headerPaddingTop": "1.00",
+            "headerPaddingBottom": "1.00",
+            "headerHeight": "10.00",
+            "headerBorderWidth": "15",
+            "headerBackgroundRed": "64",
+            "headerBackgroundGreen": "64",
+            "headerBackgroundBlue": "64",
+            "headerFontName": "Times",
+            "headerFontSize": "15",
+            "headerFontColourRed": "255",
+            "headerFontColourGreen": "255",
+            "headerFontColourBlue": "255"
+          },
+          "subTableColumns": [{
+            "paddingLeft": "0.00",
+            "paddingRight": "1.00",
+            "paddingTop": "1.00",
+            "paddingBottom": "1.00",
+            "height": "10.00",
+            "borderWidth": "15",
+            "backgroundRed": "255",
+            "backgroundGreen": "255",
+            "backgroundBlue": "255",
+            "fontName": "Times",
+            "fontSize": "15",
+            "fontColourRed": "0",
+            "fontColourGreen": "0",
+            "fontColourBlue": "0"
+          }, {
+            "paddingLeft": "0.00",
+            "paddingRight": "1.00",
+            "paddingTop": "1.00",
+            "paddingBottom": "1.00",
+            "height": "10.00",
+            "borderWidth": "15",
+            "backgroundRed": "255",
+            "backgroundGreen": "255",
+            "backgroundBlue": "255",
+            "fontName": "Times",
+            "fontSize": "15",
+            "fontColourRed": "0",
+            "fontColourGreen": "0",
+            "fontColourBlue": "0"
+          }, {
+            "paddingLeft": "0.00",
+            "paddingRight": "1.00",
+            "paddingTop": "1.00",
+            "paddingBottom": "1.00",
+            "height": "10.00",
+            "borderWidth": "15",
+            "backgroundRed": "255",
+            "backgroundGreen": "255",
+            "backgroundBlue": "255",
+            "fontName": "Times",
+            "fontSize": "15",
+            "fontColourRed": "0",
+            "fontColourGreen": "0",
+            "fontColourBlue": "0"
+          }, {
+            "paddingLeft": "0.00",
+            "paddingRight": "1.00",
+            "paddingTop": "1.00",
+            "paddingBottom": "1.00",
+            "height": "10.00",
+            "borderWidth": "15",
+            "backgroundRed": "255",
+            "backgroundGreen": "255",
+            "backgroundBlue": "255",
+            "fontName": "Times",
+            "fontSize": "15",
+            "fontColourRed": "0",
+            "fontColourGreen": "0",
+            "fontColourBlue": "0"
+          }],
+          "footerProperties": {
+            "footerPaddingLeft": "3.33",
+            "footerPaddingRight": "1.00",
+            "footerPaddingTop": "1.00",
+            "footerPaddingBottom": "1.00",
+            "footerHeight": "10.00",
+            "footerBorderWidth": "0",
+            "footerBackgroundRed": "255",
+            "footerBackgroundGreen": "255",
+            "footerBackgroundBlue": "255",
+            "footerFontName": "Times",
+            "footerFontSize": "15",
+            "footerFontColourRed": "0",
+            "footerFontColourGreen": "0",
+            "footerFontColourBlue": "0"
+          },
+          "subTableWidth": "100",
+          "subTableRatio": [1, 1, 1, 1],
+          "sum": [3, 0]
+        }],
+        "tableWidth": "100",
+        "ratio": [1]
+      }
+    ]
+  },
+  "packingSlipData": {
+    "externalServiceRequestId": {
+      "header": "PKT",
+      "seperator": ":",
+      "value": "12345"
+    },
+    "reservationClient": {
+      "header": "Reserva",
+      "seperator": ":",
+      "value": "12345"
+    },
+    "fileName": "1",
+    "orderNumber": {
+      "header": "PEC",
+      "seperator": ":",
+      "value": "order_number_1"
+    },
+    "consolidationLocationNumber": {
+      "header": "JAULA",
+      "seperator": ":",
+      "value": "071"
+    },
+    "clientName": {
+      "header": "Nombre",
+      "seperator": ":",
+      "value": "client_name1"
+    },
+    "numberFacility": {
+      "header": "WHSE",
+      "seperator": ":",
+      "value": "facility1"
+    },
+    "olpnBarcode": "000000000",
+    "packingStationId": {
+      "header": "UBICACION",
+      "seperator": ":",
+      "value": "1"
+    },
+    "waveNumber": {
+      "header": "Ola",
+      "seperator": ":",
+      "value": "wave_umber"
+    },
+    "clientAddress": {
+      "header": "Direccion",
+      "seperator": ":",
+      "value": "address1"
+    },
+    "consolidationFlag": {
+      "header": "Consolidation",
+      "seperator": ":",
+      "value": "Incomplete"
+    },
+    "reservationClientBarcode": "reservation_client1",
+    "itemTableColumnHeaders": ["Sr. No.", "ITEM", "DESCRIPTION", "QUANTITY"],
+    "itemTableColumnValues": ["serialNo", "item", "description", "quantity"],
+    "serialNo": [1, 2, 3, 4, 5],
+    "itemTableColumnFooter": ["Total : ", "Total - "],
+    "item": ["Item1", "Item2", "Item3", "Item4", "Item5"],
+    "description": ["Item11", "Item12", "Item13", "Item14", "Item15"],
+    "quantity": [11, 22, 33, 44, 55],
+    "comments": {
+      "header": "Comments",
+      "seperator": " : ",
+      "value": ""
+    },
+    "logo": "/home/prashant.v/Prashant/Sodimac/PDF/sodimac_logo.png"
+  }
+}
