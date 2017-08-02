@@ -16,7 +16,7 @@ public class PDFController {
     @RequestMapping(path = "/pdf-generator", method = RequestMethod.POST)
     public ResponseEntity<?> pdfGenerator(@RequestBody final Map<String, Object> params) {
         PDFGeneratorComponent pdfGeneratorComponent = new PDFGeneratorComponentImpl();
-        pdfGeneratorComponent.generatePDF((Map<String, Object>) params.get("packingSlipTemplateData"), (Map<String, Object>) params.get("packingSlipData"));
+        pdfGeneratorComponent.generatePDF((Map<String, Object>) params.get("template"), (Map<String, Object>) params.get("data"));
         return new ResponseEntity<>(HttpStatus.OK);
     }
 }

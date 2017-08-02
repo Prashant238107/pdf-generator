@@ -1,5 +1,5 @@
 {
-  "packingSlipTemplateData": {
+  "template": {
     "size": {
       "length": 100.00,
       "breadth": 100.00,
@@ -355,7 +355,7 @@
       }
     ]
   },
-  "packingSlipData": {
+  "data": {
     "externalServiceRequestId": {
       "header": "PKT",
       "seperator": ":",
