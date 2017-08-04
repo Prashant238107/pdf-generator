@@ -1,8 +1,5 @@
 package prashant.springboot.pdf.generator.constants;
 
-/**
- * Created by GREYORANGE\prashant.v on 24/7/17.
- */
 public class Constants {
     public final static String PDF_EXTENSION = ".pdf";
 

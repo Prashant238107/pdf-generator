@@ -1,4 +1,4 @@
-package prashant.springboot.pdf.generator.util;
+package prashant.springboot.pdf.generator.component;
 
 import com.itextpdf.text.*;
 import com.itextpdf.text.pdf.*;
@@ -18,9 +18,6 @@ import java.util.Map;
 
 import static prashant.springboot.pdf.generator.constants.Constants.*;
 
-/**
- * Created by GREYORANGE\prashant.v on 24/7/17.
- */
 @Component
 public class PDFGeneratorComponentImpl implements PDFGeneratorComponent {
 
@@ -31,7 +28,7 @@ public class PDFGeneratorComponentImpl implements PDFGeneratorComponent {
     public void generatePDF(Map<String, Object> template, Map<String, Object> data) {
         try {
             final Document document = new Document();
-            final String path = "/home/prashant.v/Prashant/Sodimac/PDF/";
+            final String path = "/home/prashant/pdf/";
             final String fileName = template.get(FILE_NAME).toString();
             final PdfWriter writer = PdfWriter.getInstance(document, new FileOutputStream(path + fileName + PDF_EXTENSION));
             float length = Utilities.millimetersToPoints(((Map<String, Double>) template.get(SIZE)).get(LENGTH).floatValue());

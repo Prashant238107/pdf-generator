@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import prashant.springboot.pdf.generator.util.PDFGeneratorComponent;
-import prashant.springboot.pdf.generator.util.PDFGeneratorComponentImpl;
+import prashant.springboot.pdf.generator.component.PDFGeneratorComponent;
+import prashant.springboot.pdf.generator.component.PDFGeneratorComponentImpl;
 
 import java.util.Map;
 
